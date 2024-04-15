@@ -1,4 +1,4 @@
-package Popups;
+package WindowHandling;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -19,6 +19,6 @@ public static void main(String[] args) throws IOException, InterruptedException
 	
 	Thread.sleep(2000);
 	
-	Runtime.getRuntime().exec("./autoit/UploadFile.exe");
+	Runtime.getRuntime().exec("./AutoIT/appsfile.exe");
 }
 }
