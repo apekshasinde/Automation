@@ -22,7 +22,8 @@ public static void main(String[] args) throws InterruptedException
 	driver.findElement(By.xpath("//li[text()='Without placeholder']")).click();
 	driver.findElement(By.xpath("//li[text()='With ToolTip']")).click();
 	driver.findElement(By.xpath("//li[text()='Multiline Text Area']")).click();
-   WebElement disabled=driver.findElement(By.xpath("//li[text()='Disabled']")).click();
+   WebElement disabled=driver.findElement(By.xpath("//li[text()='Disabled']"));
+   
    if(disabled.isEnabled())
 		   {
 	        System.out.println("textfield is enabled");

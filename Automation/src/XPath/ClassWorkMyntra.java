@@ -22,8 +22,11 @@ public static void main(String[] args)
 	driver.findElement(By.xpath("//label[text()='Rs. 1049 to Rs. 4500']")).click();
 	driver.findElement(By.xpath("//label[text()='Black']")).click();
      WebElement Discount=driver.findElement(By.xpath("//label[text()='10% and above']"));
-     for(int i=0;)
-
+     for(int i=0;i<5;i++)
+    	 
+     {
+    	 
+     }
 
 	
 }

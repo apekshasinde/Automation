@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Bat6chExecution.FullAndParticularWebElementSS">
+        <methods>
+          <include name="webElement"/>
+        </methods>
+      </class> <!-- Bat6chExecution.FullAndParticularWebElementSS -->
+      <class name="Bat6chExecution.FlipkartAssignment">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Bat6chExecution.FlipkartAssignment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
